@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb087a65-5531-45ba-8533-8a95c7578ff1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UfBEPQseFm5Ty7QS6gY71B7wDN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Webs\nes-emu\src\ppu" />
+      <recent name="C:\Webs\nes-emu\rom" />
+      <recent name="C:\Webs\nes-emu\src\util" />
+      <recent name="C:\Webs\nes-emu" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Webs\nes-emu\rom" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb087a65-5531-45ba-8533-8a95c7578ff1" name="Default Changelist" comment="" />
+      <created>1575737656218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575737656218</updated>
+      <workItem from="1575737657661" duration="43791000" />
+      <workItem from="1576078953981" duration="670000" />
+      <workItem from="1576137840906" duration="26880000" />
+      <workItem from="1577625639859" duration="3000" />
+      <workItem from="1577625753372" duration="145000" />
+      <workItem from="1577626152233" duration="3292000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575807587739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="329" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575807587739" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1576147365214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="277" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576147365214" />
+    <state x="715" y="367" key="cloudConfig.SelfSettingsDialog" timestamp="1575746831287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="367" key="cloudConfig.SelfSettingsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575746831287" />
+    <state x="667" y="281" width="586" height="478" key="find.popup" timestamp="1576140366026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="281" width="586" height="478" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576140366026" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1575796476582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575796476582" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1575745547183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575745547183" />
+  </component>
+</project>

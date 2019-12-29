@@ -1,0 +1,13 @@
+version: '3'
+services:
+  node:
+    image: 'nes-emu'
+    user: 'node'
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=development
+    ports:
+      - '8081:8081'
+    volumes:
+      - ./:/home/node/app
+    command: 'npm run start:dev'
