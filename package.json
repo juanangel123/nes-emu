@@ -5,25 +5,27 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --config webpack.config.js --mode development",
-    "watch": "webpack --config webpack.config.js --mode development --watch",
-    "prod": "webpack --config webpack.config.js --mode production",
-    "start:dev": "webpack-dev-server --hot --inline"
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "prod": "webpack --mode production",
+    "start:dev": "webpack-dev-server --mode development --hot --open"
   },
   "author": "Juan Ángel Espigares Marín",
   "license": "MIT",
   "dependencies": {
     "6502": "github:bleroy/6502",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
     "@babel/polyfill": "^7.8.7",
-    "nes-file": "github:satoshinm/nes-file"
+    "buffer": "^6.0.3",
+    "nes-file": "github:satoshinm/nes-file",
+    "process": "^0.11.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "babel-loader": "^8.1.0",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
   }
 }

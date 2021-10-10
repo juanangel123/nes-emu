@@ -1,10 +1,12 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
     entry: ['@babel/polyfill', './src/index.js'],
     devServer: {
-        host: '0.0.0.0',
-        port: 8081
+        host: 'localhost',
+        port: 8081,
+
     },
     module: {
         rules: [
@@ -21,8 +23,14 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new webpack.ProvidePlugin({
+            process: 'process/browser',
+            Buffer: ['buffer', 'Buffer'],
+        }),
+    ],
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'public/dist'),
         filename: 'bundle.js'
     }
 };

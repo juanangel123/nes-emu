@@ -20,7 +20,7 @@ nes.insertCartridge(new Cartridge(path), () => {
 
     document.addEventListener('keypress', (e) => {
         if (e.code === 'Space') {
-            frame(false);
+            frame(true);
         } else if (e.code === 'KeyS') {
             nes.step();
         } else if (e.code === 'KeyP') {
@@ -54,7 +54,7 @@ async function heya() {
         await Helper.sleep(wait);
     }
 
-    console.log('heya');
+    console.log('heya2');
 }
 
 /**
@@ -64,7 +64,7 @@ async function heya() {
  */
 function frame(render = false) {
     do {
-        nes.step()
+        nes.step();
     } while (!nes.ppu.frameComplete);
     // Reset the frame complete flag.
     nes.ppu.frameComplete = false;
